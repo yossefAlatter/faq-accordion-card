@@ -1,10 +1,10 @@
-$(function(){
-    $(".app").hide();
-    setTimeout(()=>{
-        $('#loading').slideUp(1000).hide(1000);
-        $(".app").slideDown(1000);
-    },3000)    
-})
+// $(function(){
+//     $(".app").hide();
+//     setTimeout(()=>{
+//         $('#loading').slideUp(1000).hide(1000);
+//         $(".app").slideDown(1000);
+//     },3000)    
+// })
 $(function(){
     let headcontrol = [3,4,3,3,3];
     for ( let i = 1 ; i < 6 ; i++){
